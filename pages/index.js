@@ -1,7 +1,7 @@
+"use client";
 import React from "react";
 
 import { client } from "../lib/client";
-
 import { Product, FooterBanner, HeroBanner } from "../components";
 
 const Home = ({ products, bannerData }) => (
@@ -9,7 +9,7 @@ const Home = ({ products, bannerData }) => (
     <HeroBanner heroBanner={bannerData.length && bannerData[0]} />
     <div className="products-heading">
       <h2>Best Selling Products</h2>
-      <p>Africa's Best Vegetables and Meat, Ready to Export</p>
+      <p>Africa's Best Vegetables and Meat Ready for export</p>
     </div>
 
     <div className="products-container">
